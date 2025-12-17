@@ -1,10 +1,11 @@
-name: Hello 
+
+name: Hello
 
 on: push
- jobs: 
-    Hello:
-runs-on:ubuntu-latest
- steps:
--uses:actions/checkout@v1
--name:print Hello 
-run :echo "hello roqaya"
+jobs
+Hello:
+runs-on: Windows
+steps:
+- uses: actions/checkout@v1
+- name : print Hello
+run : echo "hello roqaya"
